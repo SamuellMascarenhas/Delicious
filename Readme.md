@@ -25,6 +25,12 @@ O Delicious é um projeto de Desenvolvimento Web para um restaurante fictício q
 - **Informações do Restaurante:** Descubra mais sobre o Delicious, incluindo localização e horário de funcionamento.
 - **Contato Direto:** Entre em contato conosco facilmente através de nosso formulário de contato.
 
+## Visite Nossa Página
+
+Confira a landing page da Delicious.
+
+- [Delicious](https://samuellmascarenhas.github.io/Delicious)
+
 ## 🎨 Contribuição
 
 Contribuições são sempre bem-vindas! Se você deseja contribuir para o Delicious, siga os passos abaixo:
