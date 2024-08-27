@@ -1,10 +1,4 @@
- /**
-* Template Name: Yummy 
-* Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 (function() {
   "use strict";
@@ -20,7 +14,7 @@
   }
 
   /**
-   * Sticky header on scroll
+   * Cabeçalho fixo ao rolar
    */
   const selectHeader = document.querySelector('#header');
   if (selectHeader) {
@@ -30,7 +24,7 @@
   }
 
   /**
-   * Navbar links active state on scroll
+   * Estado ativo dos links da barra de navegação ao rolar
    */
   let navbarlinks = document.querySelectorAll('#navbar a');
 
@@ -55,7 +49,7 @@
   document.addEventListener('scroll', navbarlinksActive);
 
   /**
-   * Mobile nav toggle
+   * Alternar a navegação móvel
    */
   const mobileNavShow = document.querySelector('.mobile-nav-show');
   const mobileNavHide = document.querySelector('.mobile-nav-hide');
@@ -74,7 +68,7 @@
   }
 
   /**
-   * Hide mobile nav on same-page/hash links
+   * Ocultar a navegação móvel em links de mesma página/hash
    */
   document.querySelectorAll('#navbar a').forEach(navbarlink => {
 
@@ -92,7 +86,7 @@
   });
 
   /**
-   * Toggle mobile nav dropdowns
+   * Alternar dropdowns da navegação móvel
    */
   const navDropdowns = document.querySelectorAll('.navbar .dropdown > a');
 
@@ -111,7 +105,7 @@
   });
 
   /**
-   * Scroll top button
+   * Botão de rolar para o topo
    */
   const scrollTop = document.querySelector('.scroll-top');
   if (scrollTop) {
@@ -127,19 +121,19 @@
   }
 
   /**
-   * Initiate glightbox
+   * Iniciar o glightbox
    */
   const glightbox = GLightbox({
     selector: '.glightbox'
   });
 
   /**
-   * Initiate pURE cOUNTER
+   * Iniciar o pURE cOUNTER
    */
   new PureCounter();
 
   /**
-   * Init swiper slider with 1 slide at once in desktop view
+   * Iniciar o slider Swiper com 1 slide de cada vez na visualização para desktop
    */
   new Swiper('.slides-1', {
     speed: 600,
@@ -161,7 +155,7 @@
   });
 
   /**
-   * Init swiper slider with 3 slides at once in desktop view
+   * Iniciar o slider Swiper com 3 slides de cada vez na visualização para desktop
    */
   new Swiper('.slides-3', {
     speed: 600,
@@ -193,7 +187,7 @@
   });
 
   /**
-   * Gallery Slider
+   * slide galeria
    */
   new Swiper('.gallery-slider', {
     speed: 400,
@@ -226,7 +220,7 @@
   });
 
   /**
-   * Animation on scroll function and init
+   * animação ao rolar
    */
   function aos_init() {
     AOS.init({
